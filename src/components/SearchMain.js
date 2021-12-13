@@ -18,7 +18,7 @@ const handleSubmit = (e)=>{
 const getWeatherInfo = useCallback((city)=>{
 
 axios
-    .get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=f840f08444c59ce09a2fbb87f9bff214`)
+    .get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=7f71d176a71277c4ed35b7fd3d0074ea`)
     .then((response)=> {
         const { temp, humidity, pressure } = response.data.main
         const { main: weatherType } = response.data.weather[0];
