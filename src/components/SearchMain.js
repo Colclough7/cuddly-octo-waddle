@@ -5,7 +5,7 @@ import axios from 'axios';
 
 
 const SearchMain = () => {
-    let [searchTerm, setSearchTerm] = useState("atlanta");
+    let [searchTerm, setSearchTerm] = useState("");
     let [tempInfo, setTempInfo] = useState({});
 
 
